@@ -4,16 +4,22 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev" : "bun run index.ts"
+    "dev": "bun run index.ts",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "concurrently": "^9.2.1"
+    "concurrently": "^9.2.1",
+    "prettier": "^3.7.4"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
 }
