@@ -13,10 +13,10 @@ function App() {
   }, []);
 
   return (
-  <div className="p-4">
-    <p className="font-bold text-3xl">{message}</p>
-    <Button>Click Me</Button>
-  </div>
+    <div className="p-4">
+      <p className="font-bold text-3xl">{message}</p>
+      <Button>Click Me</Button>
+    </div>
   );
 }
 
