@@ -1,5 +1,8 @@
+import fs from 'fs';
+import path from 'path';
 import OpenAI from 'openai';
 import { conversationRepository } from '../repositories/conversation.repository';
+import template from '../prompts/chatbot.txt';
 
 //  implementation
 const client = new OpenAI({
@@ -11,6 +14,12 @@ type ChatResponse = {
   message: string;
 };
 
+const parkInfo = fs.readFileSync(
+  path.join(__dirname, '..', 'prompts', 'WonderWorld.md'),
+  'utf-8'
+);
+const instructions = template.replace('{{parkInfo}}', parkInfo);
+
 // Leaky abstraction
 export const chatService = {
   async sendMessage(
@@ -19,6 +28,7 @@ export const chatService = {
   ): Promise<ChatResponse> {
     const response = await client.responses.create({
       model: 'gpt-4o-mini',
+      instructions,
       input: prompt,
       temperature: 0.2,
       max_output_tokens: 100,
