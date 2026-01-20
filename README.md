@@ -1,145 +1,149 @@
-🤖 LLM Chat App
+# 🤖 LLM Chat App  
+**AI-Powered Chat Application | Full-Stack Project**
 
-AI-Powered Chat Application | Full-Stack Project
+An AI-powered chat application that enables real-time interaction with a Large Language Model (LLM). This project demonstrates end-to-end integration of LLM APIs into a modern web application, showcasing full-stack development skills, clean architecture, and practical AI usage.
 
-A production-ready LLM-powered chat application demonstrating end-to-end integration of Large Language Models into a modern web app. This project highlights backend API design, real-time AI interaction, clean architecture, and performance-oriented development using Bun and TypeScript.
+---
 
-🚀 Why This Project Matters (Recruiter View)
+## 🚀 Why This Project Matters
 
-This project demonstrates:
+This project highlights:
+- Practical **LLM API integration** in a real application
+- Full-stack ownership (frontend + backend)
+- Clean, readable, and extensible code
+- Secure configuration using environment variables
+- A strong foundation for production-grade AI apps
 
-Practical LLM API integration (not just theory)
+---
 
-Full-stack ownership (frontend + backend)
+## ✨ Key Features
 
-Clean, readable, and scalable code structure
+- 💬 **Real-Time AI Chat** – Users can send messages and receive LLM-generated responses instantly  
+- 🧠 **LLM Integration** – Handles prompt processing and response rendering  
+- ⚡ **High Performance** – Built using **Bun** for fast execution  
+- 🔐 **Secure Configuration** – API keys managed via environment variables  
+- 📱 **Responsive UI** – Simple and clean interface usable across devices  
+- 🧩 **Extensible Design** – Easy to add streaming, auth, or persistence  
 
-Secure configuration using environment variables
+---
 
-Real-world AI use case implementation
+## 🛠️ Tech Stack
 
-✨ Key Highlights
+| Layer | Technology |
+|-----|-----------|
+| Language | TypeScript |
+| Runtime | Bun |
+| Backend | Bun HTTP Server |
+| Frontend | HTML, CSS, JavaScript |
+| AI | Large Language Model (LLM API) |
+| Config | Environment Variables |
 
-💬 Real-Time AI Chat – User messages are processed and answered by an LLM in real time
+---
 
-🧠 LLM API Integration – Demonstrates prompt handling, response parsing, and error handling
-
-⚡ High-Performance Runtime – Built with Bun, optimized for fast startup and execution
-
-🔐 Secure Environment Management – API keys handled via .env configuration
-
-📱 Responsive UI – Clean and usable interface across devices
-
-🧩 Extensible Architecture – Easy to add features like streaming, auth, or persistence
-
-🛠️ Technical Stack
-Layer	Technology
-Language	TypeScript
-Runtime	Bun
-Backend	Bun HTTP server
-Frontend	HTML, CSS, JavaScript
-AI	Large Language Model (LLM API)
-Config	Environment Variables
-📐 Architecture Overview
-User UI
-   ↓
-Frontend (Chat Interface)
-   ↓
+User
+↓
+Frontend (Chat UI)
+↓
 Backend (Bun Server)
-   ↓
+↓
 LLM API
-   ↓
-AI Response → UI
+↓
+AI Response → Frontend
 
-📂 Project Structure
+
+---
+
+## 📂 Project Structure
+
+
+
 llm-chat-app/
-├── index.ts          # Backend entry point (LLM integration logic)
-├── public/           # Frontend UI assets
-├── .env.example      # Environment configuration template
-├── bun.lockb         # Dependency lock file
-└── README.md         # Documentation
+├── index.ts # Backend entry point and LLM logic
+├── public/ # Frontend assets
+├── .env.example # Environment variable template
+├── bun.lockb # Dependency lock file
+└── README.md # Project documentation
 
-⚙️ Setup & Run (Quick Start)
-Prerequisites
 
-Bun installed
+---
 
-LLM API key (OpenAI or compatible provider)
+## ⚙️ Getting Started
 
-Steps
+### Prerequisites
+- Bun installed → https://bun.sh
+- An LLM API key (OpenAI or compatible provider)
+
+---
+
+### Installation
+
+```bash
 git clone https://github.com/sakshikbc/llm-chat-app.git
 cd llm-chat-app
 bun install
 
 
-Create .env:
+Create a .env file:
 
 LLM_API_KEY=your_api_key_here
 
-
-Run the app:
-
+Run the Application
 bun run index.ts
 
 
-Open:
+Open in browser:
 
 http://localhost:3000
 
-🧠 Key Engineering Concepts Demonstrated
+🧠 Engineering Concepts Demonstrated
 
-API integration with third-party AI services
+Third-party API integration
 
 Asynchronous request handling
 
-Separation of concerns (UI vs backend logic)
+Separation of frontend and backend concerns
 
-Secure configuration management
+Secure environment-based configuration
 
 Scalable foundation for AI applications
 
-🔮 Planned Improvements
+🔮 Future Enhancements
 
-Streaming AI responses (token-by-token)
+Streaming AI responses
 
-Chat history persistence (DB integration)
+Chat history persistence (database)
 
-User authentication & sessions
+User authentication
 
 Multi-model support
 
-UI/UX enhancements
+Improved UI/UX
 
-🧑‍💻 Ideal For
+🎯 Ideal For
 
 Recruiters evaluating AI + Full-Stack skills
 
 Developers learning LLM integrations
 
-Teams building AI-driven chat systems
+Portfolio and resume projects
 
-Resume and portfolio showcase projects
+AI chatbot prototypes
 
 👩‍💻 Author
 
 Sakshi Khoobchandani
-Software Engineer | AI-Driven Web Applications
+Software Engineer | AI & Web Development
 GitHub: https://github.com/sakshikbc
 
-⭐ If This Project Helped You
+⭐ Support
 
-Star ⭐ the repository
+If you find this project useful:
 
-Fork 🍴 and extend it
+⭐ Star the repository
 
-Open issues or PRs
+🍴 Fork and build on top of it
 
-🔥 Recruiter Tip (For You)
+🛠️ Open issues or pull requests
 
-When sharing this repo:
+## 📐 Architecture Overview
 
-Mention “LLM API Integration + Bun + TypeScript”
-
-Call it a “production-ready AI chat prototype”
-
-Link it in your resume under Projects
