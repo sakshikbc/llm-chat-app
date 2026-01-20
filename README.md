@@ -95,7 +95,7 @@ Open in browser:
 
 http://localhost:3000
 
-🧠 Engineering Concepts Demonstrated
+## 🧠 Engineering Concepts Demonstrated
 
 Third-party API integration
 
@@ -107,7 +107,7 @@ Secure environment-based configuration
 
 Scalable foundation for AI applications
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Streaming AI responses
 
@@ -119,7 +119,7 @@ Multi-model support
 
 Improved UI/UX
 
-🎯 Ideal For
+## 🎯 Ideal For
 
 Recruiters evaluating AI + Full-Stack skills
 
@@ -129,13 +129,13 @@ Portfolio and resume projects
 
 AI chatbot prototypes
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Sakshi Khoobchandani
 Software Engineer | AI & Web Development
 GitHub: https://github.com/sakshikbc
 
-⭐ Support
+## ⭐ Support
 
 If you find this project useful:
 
@@ -145,5 +145,5 @@ If you find this project useful:
 
 🛠️ Open issues or pull requests
 
-## 📐 Architecture Overview
+
 
